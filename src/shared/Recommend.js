@@ -1,6 +1,6 @@
 export const Recommended = ({ resList }) => {
   return (
-    <div className="navigation-top flex no-scrollbar overflow-auto h-52">
+    <div className="flex no-scrollbar overflow-auto h-52">
       {resList.map((res) => (
         <img
           key={res.imageId}

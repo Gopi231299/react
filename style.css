@@ -4,8 +4,8 @@
 
 .header {
   display: flex;
-  height: 70px;
-  background-color: burlywood;
+  height: 80px;
+  /* background-color: burlywood; */
   justify-content: space-between;
   width: 100vw;
   align-items: center;
@@ -36,4 +36,18 @@
     padding-right: 5px;
     cursor: pointer;
   }
+}
+
+.offer {
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+  background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+  margin: 0;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 0 0 24px 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -100%);
 }
